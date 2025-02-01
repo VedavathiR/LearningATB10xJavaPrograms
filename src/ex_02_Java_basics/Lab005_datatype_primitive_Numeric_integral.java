@@ -1,6 +1,6 @@
 package ex_02_Java_basics;
 
-public class Lab005_datatype_primitive {
+public class Lab005_datatype_primitive_Numeric_integral {
     public static void main(String[] args) {
         byte a=127;
         short s=12821;
