@@ -88,7 +88,17 @@ public class Task_2_Feb_String_Functions {
         //19 compareToIgnoreCase()
         System.out.println(name1.compareToIgnoreCase("veda"));
 
+        //20 lastIndexOf()
+        System.out.println(name1.lastIndexOf('a')); //3 - v-0, e-1, d-2, a-3
+        System.out.println("veadada".lastIndexOf('a'));//6- last one
 
+        //21 repeat()
+        System.out.println(name1.repeat(3));//VedaVedaVeda
+
+        //22 StringBuilder()
+        StringBuilder sb = new StringBuilder("Learning");
+        sb.append("automation");
+        System.out.println(sb);
 
 
 
